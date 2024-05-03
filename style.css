@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", "Khmer", sans-serif;
+  background-color: black;
+  letter-spacing: 0.5px;
+}
+img {
+  width: 50px;
+  display: flex;
+}
+.nav-bar {
+  width: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+.nav-list {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: sticky;
+  background-color: rgba(111, 112, 114, 0.4);
+  border: 1px solid white;
+  border-radius: 20px;
+  color: rgb(170, 170, 170);
+}
+@media screen and (max-width: 600px) {
+  .nav-list {
+    display: none;
+  }
+}
+.header {
+  text-align: center;
+  margin: 50px 0px;
+  color: rgb(239, 204, 204);
+}
+h2 {
+  color: transparent;
+  background: linear-gradient(to right, rgb(164, 159, 159), rgb(205, 0, 0));
+  -webkit-background-clip: text;
+}
+.header > p {
+  gap: 2rem;
+  padding: 7rem 5rem;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 1.5),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 1.5)
+    ),
+    url(/projece-img/images.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.box-all {
+  color: rgb(196, 164, 164);
+  text-align: center;
+  padding: 0 4rem;
+}
+.title-card {
+  color: transparent;
+  background: linear-gradient(to right, rgb(228, 228, 10), rgb(153, 3, 30));
+  -webkit-background-clip: text;
+}
+.his-1 {
+  padding: 4rem 0;
+  border-radius: 10px;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(95, 94, 94));
+}
+.his2 {
+  padding: 4rem 0;
+  border-radius: 10px;
+  background: linear-gradient(to left, rgb(0, 0, 0), rgb(95, 94, 94));
+}
+
+.his3 {
+  margin: 4rem 0;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(95, 94, 94));
+  border-radius: 10px;
+}
+.de-3 {
+  height: 500px;
+  overflow: scroll;
+}
+.his4 {
+  margin: 4rem 0;
+  background: linear-gradient(to left, rgb(0, 0, 0), rgb(95, 94, 94));
+  border-radius: 10px;
+}
+.de-4 {
+  height: 500px;
+  overflow: scroll;
+}
+.his5 {
+  margin: 4rem 0;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(95, 94, 94));
+  border-radius: 10px;
+}
+.de-4 {
+  height: 500px;
+  overflow: scroll;
+}
+.his6 {
+  margin: 4rem 0;
+  background: linear-gradient(to left, rgb(0, 0, 0), rgb(95, 94, 94));
+  border-radius: 10px;
+}
+.de-6 {
+  height: 500px;
+  overflow: scroll;
+}
